@@ -1,0 +1,19 @@
+<svg width="1300" height="654" viewBox="0 0 1300 654" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M1308 624.199C1300.88 484.275 1243.89 346.415 1137.02 239.544C908.029 10.5573 536.768 10.5573 307.781 239.544C200.91 346.415 143.917 484.275 136.802 624.199C128.671 464.314 185.664 301.734 307.781 179.618C536.768 -49.3693 908.029 -49.3693 1137.02 179.618C1259.13 301.734 1316.13 464.314 1308 624.199Z" fill="url(#paint0_radial_667_7363)"/>
+<g opacity="0.1">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M510 152.585C480.732 152.585 456.72 176.712 456.72 206.283L456.72 526.553C476.718 522.581 494.308 515.887 510 505.295L510 152.585Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M441.64 228.39C412.372 228.39 388.36 252.496 388.36 282.04L388.36 525.747C405.658 529.495 423.393 530.598 441.64 528.613L441.64 228.39Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M372.275 308.31C343.488 308.31 320 332.233 320 361.553L320 496.556C321.146 497.285 322.292 498.014 323.437 498.744C339.263 508.517 355.518 516.248 372.275 521.5L372.275 308.237L372.275 308.31Z" fill="white"/>
+</g>
+<g opacity="0.1">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M935 152.585C964.268 152.585 988.28 176.712 988.28 206.283L988.28 526.553C968.282 522.581 950.692 515.887 935 505.295L935 152.585Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1003.36 228.39C1032.63 228.39 1056.64 252.496 1056.64 282.04L1056.64 525.747C1039.34 529.495 1021.61 530.598 1003.36 528.613L1003.36 228.39Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1072.72 308.31C1101.51 308.31 1125 332.233 1125 361.553L1125 496.556C1123.85 497.285 1122.71 498.014 1121.56 498.744C1105.74 508.517 1089.48 516.248 1072.72 521.5L1072.72 308.237L1072.72 308.31Z" fill="white"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_667_7363" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(745.001 121.085) rotate(90) scale(393.5)">
+<stop stop-color="#F7F7F7" stop-opacity="0"/>
+<stop offset="1" stop-color="#F7F7F7"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="catalog.html" style="display: block; margin-bottom: 20px;">
+            Страница каталога общая
+        </a>
+        <a href="category.html" style="display: block; margin-bottom: 20px;">
+            Категории
+        </a>
+        <a href="catalog-item.html" style="display: block; margin-bottom: 20px;">
+            Карточка товара
+        </a>
+        <a href="catalog-item2.html" style="display: block; margin-bottom: 20px;">
+            Карточка товара (Формы отправлены)
+        </a>
+        <a href="service-brand.html" style="display: block; margin-bottom: 20px;">
+            Страница марки
+        </a>
+        <a href="service.html" style="display: block; margin-bottom: 20px;">
+            Сервис
+        </a>
+        <a href="equipment.html" style="display: block; margin-bottom: 20px;">
+            Запчасти
+        </a>
+        <a href="equipment-brand.html" style="display: block; margin-bottom: 20px;">
+            Запчасти бренда
+        </a>
+        <a href="equipment-item.html" style="display: block; margin-bottom: 20px;">
+            Запчасти для двигателя
+        </a>
+        <a href="sales.html" style="display: block; margin-bottom: 20px;">
+            Акции
+        </a>
+        <a href="sale-item.html" style="display: block; margin-bottom: 20px;">
+            Текстовая акции
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О компании
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты и реквизиты
+        </a>
+        <a href="textpage.html" style="display: block; margin-bottom: 20px;">
+            Текстовая страница
+        </a>
+        <a href="404.html" style="display: block; margin-bottom: 20px;">
+            404
+        </a>
+
+
+
+
+        <button data-modal="orderModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Получите КП
+        </button>
+        <button data-modal="thankModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Спасибо
+        </button>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!--  -->
+    <div class="modal" id="orderModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn _close-modal">
+                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.25 5.75L5.75 17.25M5.75 5.75L17.25 17.25" stroke="#465262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="modal__info">
+                <div class="modal__title h2">
+                    Получите КП <br>
+                с ценой и условиями
+                </div>
+                <div class="modal__desc text16 text14-tablet">
+                    Вот вам яркий пример современных тенденций — понимание сути ресурсосберегающих технологий однозначно фиксирует необходимость системы обучения кадров, соответствующей насущным потребностям.
+                </div>
+            </div>
+            <form action="" class="order-form">
+                <div class="fg">
+                    <input type="text" placeholder="Ваше имя">
+                </div>
+                <div class="fg">
+                    <input type="tel" placeholder="Ваш номер телефона">
+                </div>
+                <div class="m-check">
+                    <input type="checkbox">
+                    <label>
+                        <span>
+                Ознакомился(-ась) с <a href="">политикой конфиденциальности</a> и даю согласие на 
+                <a href="">обработку персональных данных</a>
+            </span>
+                    </label>
+                </div>
+                <button class="order-form__btn m-btn m-btn-primary">
+                    <span>Отправить заявку</span>
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="modal modal-thank" id="thankModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <button class="close-btn _close-modal">
+                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.25 5.75L5.75 17.25M5.75 5.75L17.25 17.25" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="success-form">
+                <div class="success-form__content">
+                    <div class="h2">
+                        Спасибо, ваша заявка принята
+                    </div>
+                    <div class="success-form__desc">
+                        <div class="text14 text12-tablet">Мы Вам перезвоним в ближайшее время</div>
+                    </div>
+                    <div class="success-form__desc2">
+                        <div class="text20 text14-tablet">
+                            Если у Вас остались какие-либо вопросы, вы можете позвонить по телефону:
+                        </div>
+                    </div>
+                    <a href="tel:88005001527" class="req__link">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M29.2695 12.5C31.3043 12.897 33.1744 13.8922 34.6404 15.3582C36.1064 16.8242 37.1016 18.6943 37.4986 20.7291M29.2695 4.16663C33.4971 4.63628 37.4395 6.52949 40.4491 9.53539C43.4588 12.5413 45.357 16.4812 45.832 20.7083M21.3048 28.8814C18.8016 26.3781 16.8249 23.5476 15.3749 20.5275C15.2502 20.2677 15.1878 20.1379 15.1399 19.9735C14.9697 19.3894 15.092 18.6722 15.4462 18.1776C15.5458 18.0384 15.6649 17.9193 15.9031 17.6812C16.6314 16.9528 16.9956 16.5886 17.2337 16.2224C18.1316 14.8414 18.1316 13.061 17.2337 11.68C16.9956 11.3138 16.6314 10.9496 15.9031 10.2213L15.4971 9.81532C14.3899 8.70815 13.8363 8.15457 13.2418 7.85385C12.0594 7.25579 10.663 7.25579 9.48055 7.85385C8.88601 8.15457 8.33242 8.70815 7.22525 9.81532L6.89684 10.1437C5.79346 11.2471 5.24177 11.7988 4.82042 12.5489C4.35288 13.3812 4.01671 14.6739 4.01955 15.6285C4.02211 16.4888 4.18899 17.0768 4.52276 18.2527C6.31644 24.5723 9.70076 30.5355 14.6757 35.5105C19.6507 40.4854 25.6139 43.8698 31.9335 45.6634C33.1094 45.9972 33.6974 46.1641 34.5577 46.1667C35.5123 46.1695 36.805 45.8333 37.6373 45.3658C38.3874 44.9444 38.9391 44.3927 40.0425 43.2894L40.3709 42.961C41.478 41.8538 42.0316 41.3002 42.3324 40.7057C42.9304 39.5232 42.9304 38.1268 42.3324 36.9444C42.0316 36.3499 41.478 35.7963 40.3709 34.6891L39.9649 34.2831C39.2366 33.5548 38.8724 33.1906 38.5062 32.9525C37.1252 32.0546 35.3448 32.0546 33.9638 32.9525C33.5976 33.1906 33.2334 33.5548 32.505 34.2831C32.2669 34.5213 32.1478 34.6404 32.0086 34.74C31.514 35.0942 30.7968 35.2165 30.2127 35.0463C30.0483 34.9984 29.9185 34.936 29.6587 34.8113C26.6386 33.3613 23.8081 31.3846 21.3048 28.8814Z" stroke="#465262" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="h3 bold-text">8 (800) 500-15-27</span>
+                    </a>
+                    <div class="success-form__desc3">
+                        <div class="text14 text12-tablet">
+                            Мы работаем с: пн-вс, 09:00 - 20:00
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="story-modal">
+        <div class="story-modal__bg modal-bg _close-story"></div>
+        <button class="close-btn _close-story">
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.25 5.75L5.75 17.25M5.75 5.75L17.25 17.25" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="story-modal__dialog">
+            <div class="story-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="story-item m-backdrop">
+                                <div class="story-item__img">
+                                    <img src="img/story7.jpg" alt="">
+                                </div>
+                                <div class="story-item__badge">
+                                    <span>Cкидка 420 000 на Sollers Atlant</span>
+                                </div>
+                            </div>
+                            <div class="story-slider__progress">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="story-item m-backdrop">
+                                <div class="story-item__img">
+                                    <img src="img/story8.jpg" alt="">
+                                </div>
+                                <div class="story-item__badge">
+                                    <span>Cкидка 420 000 на Sollers Atlant</span>
+                                </div>
+                            </div>
+                            <div class="story-slider__progress">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="story-item m-backdrop">
+                                <div class="story-item__img">
+                                    <img src="img/story9.jpg" alt="">
+                                </div>
+                                <div class="story-item__badge">
+                                    <span>Cкидка 420 000 на Sollers Atlant</span>
+                                </div>
+                            </div>
+                            <div class="story-slider__progress">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-nav">
+                    <div class="swiper-button swiper-button-prev">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M31.25 37.5L18.75 25L31.25 12.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button swiper-button-next">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.75 37.5L31.25 25L18.75 12.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
